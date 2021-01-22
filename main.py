@@ -1,4 +1,4 @@
-def factORsum(x, word):
+def factOrSum(x, word):
     if word == "factorial": 
         total = 1
         for i in range (1, x+1):
@@ -11,4 +11,4 @@ def factORsum(x, word):
     
     return total 
 
-print(factORsum(4, "factorial"))
+print(factOrSum(3, "sum"))
